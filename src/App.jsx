@@ -4,6 +4,10 @@ import BasicInfo from './pages/BasicInfo.jsx'
 import Education from './pages/Education.jsx'
 import Experience from './pages/Experience.jsx'
 
+// TODO: When a value is entered in the inputs, onBlur needs to re-render the data in the Resume 
+
+// TODO: Create layout of the resume
+
 function App() {
 
   return (
