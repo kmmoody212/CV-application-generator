@@ -32,7 +32,9 @@ export default [
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
+        
       ],
+      'react/prop-types': 'off', // turning off in case props are used and not given props validation
     },
   },
 ]
