@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { useState } from "react";
 import Header from "../components/Header";
 import Input from "../components/Input";
 
@@ -18,6 +18,7 @@ export default function BasicInfo() {
         <Input labelName="E-mail Address: " type="email" placeholder="Email Address"/>
         <br></br>
         <Input labelName="Phone Number: " type="tel" placeholder="10-digit Phone Number"/>
+        
         </>
     )
 }

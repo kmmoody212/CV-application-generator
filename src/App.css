@@ -1,0 +1,19 @@
+.page-title {
+    text-align: center;
+}
+
+.desc {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.right-side {
+    border: 1px solid black;
+
+}
+

@@ -1,4 +1,6 @@
+
 export default function Input({ labelName, type, placeholder }) {
+       
     return (
         <>
         <label>{labelName}</label>

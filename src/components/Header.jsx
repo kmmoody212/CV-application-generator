@@ -1,6 +1,6 @@
 export default function Header({ headerText }) {
     return (
-        <h1>{headerText}</h1>
+        <h2>{headerText}</h2>
     )
 }
 
