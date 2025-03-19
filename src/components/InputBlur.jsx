@@ -1,11 +1,11 @@
-import { useState } from "react";
+// import { useState } from "react";
 
-export default function InputBlur() {
-    const [inputValue, setInputValue] = useState('');
+// export default function InputBlur() {
+//     const [inputValue, setInputValue] = useState('');
 
-    const handleBlur = (e) => {
-        setInputValue(e.target.value);
-        console.log('Input value: ', e.target.value)
-    };
+//     const handleBlur = (e) => {
+//         setInputValue(e.target.value);
+//         console.log('Input value: ', e.target.value)
+//     };
 
-}
+// }

@@ -1,14 +1,20 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
-import BasicInfo from './pages/BasicInfo.jsx'
-import Education from './pages/Education.jsx'
-import Experience from './pages/Experience.jsx'
+import BasicInfo from './components/BasicInfo.jsx'
+// import Education from './pages/Education.jsx'
+// import Experience from './pages/Experience.jsx'
 
 // TODO: When a value is entered in the inputs, onBlur needs to re-render the data in the Resume 
 
 // TODO: Create layout of the resume
 
 function App() {
+  const [inputValue, setInputValue] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+  }
 
   return (
     <>
@@ -17,9 +23,7 @@ function App() {
 
     <div className="content">
       <div className="left-side">
-        <BasicInfo />
-        <Education />
-        <Experience />        
+        <BasicInfo />    
       </div>
 
       <div className="right-side">

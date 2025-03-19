@@ -1,10 +1,10 @@
 
-export default function Input({ labelName, type, placeholder }) {
+// export default function Input({ labelName, type, placeholder }) {
        
-    return (
-        <>
-        <label>{labelName}</label>
-        <input type={type} placeholder={placeholder}></input>
-        </>
-    )
-}
+//     return (
+//         <>
+//         <label>{labelName}</label>
+//         <input type={type} placeholder={placeholder}></input>
+//         </>
+//     )
+// }
